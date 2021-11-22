@@ -9,4 +9,144 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+p {
+  font-size: 1.5em;
+}
+
+/* Mobile! */
+header > .max-width-wrapper {
+  margin-left: 20px;
+  width: 100%;
+}
+
+section.max-width-wrapper {
+  margin-left: 0px;
+  width: 100%;
+}
+
+header {
+  margin-top: 100px;
+  margin-left: 0px;
+  border-bottom: 4px solid grey;
+  
+}
+
+header p {
+  width: 70%;
+  size: 2em;
+}
+
+main {
+  background-color: gainsboro;
+  border: 1px solid green;
+  height: 100%;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: white;
+  /* padding: 10px; */
+}
+
+p strong {
+  color: green;
+}
+
+.indented-heading {
+  margin-top: 5px;
+  margin-left: 0px;
+  background-color: gold;
+  padding: 10 10 10 0;
+  width: max-content;
+  border-bottom: 5px solid goldenrod;
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 600px) {
+
+  /* Add styles here! */
+  p {
+    font-size: 1.2em;
+  }
+
+  header.max-width-wrapper {
+    margin-left: 20px;
+    width: 70%;
+  }
+
+  section.max-width-wrapper {
+    margin-left: 20px;
+    width: 70%;
+  }
+
+  header {
+    margin-top: 100px;
+    border-bottom: 4px solid grey;
+    
+  }
+
+  header p {
+    width: 60%;
+  }
+
+  .card {
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .indented-heading {
+    margin-top: 5px;
+    margin-left: -20px;
+    background-color: gold;
+    padding: 10 10 10 40px;
+    width: max-content;
+    border-bottom: 5px solid goldenrod;
+    
+  }
+}  
+
+/*  */
+@media only screen and (min-width: 768px) {
+  /* Add styles here! */
+  p {
+    font-size: 1em;
+  }
+
+  header > .max-width-wrapper {
+    margin: auto;
+    width: 50%;
+  }
+
+  section.max-width-wrapper {
+    margin: auto;
+    width: 50%;
+  }
+
+  header {
+    margin-top: 100px;
+    border-bottom: 4px solid grey;
+    
+  }
+
+  header p {
+    width: 40%;
+  }
+
+  .card {
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+  }
+
+  .indented-heading {
+    margin-top: 5px;
+    margin-left: -20px;
+    background-color: gold;
+    padding: 10 10 10 40px;
+    width: max-content;
+    border-bottom: 5px solid goldenrod;
+    
+  }
+}
